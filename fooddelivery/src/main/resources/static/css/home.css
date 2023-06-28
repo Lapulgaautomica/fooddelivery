@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+.navbar{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+.c-item{
+    height: 20rem;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(.6);
+  
+}
+.hero{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+.card{
+       width: 16rem;
+    height: 25rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+.c{
+	border: none;
+}
+.card-img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+.card-im{
+        width: 14rem;
+    height: 15rem;
+    border-radius: 2%;
+    object-fit: cover;
+    padding: 1rem;
+}
+H5{
+	text-align: center;
+    padding: .5rem;
+}
+.v{
+	text-align: center;
+}
+
+.cat-cards{
+display: grid;
+grid-template-columns: repeat(4,2fr);
+grid-auto-rows: auto;
+place-items:  center;
+}
+.form-control1{
+    width: 30%;
+}
+.form-control2{
+    width: 15rem;
+}
+.addfood{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.rest{
+	flex-basis: 30%;
+}
